@@ -1,0 +1,49 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+//
+// Variables
+//
+
+$font-size: 18px;
+
+//
+// Large sections
+//
+
+body {
+  font-size: $font-size;
+}
+
+//
+// Elements
+//
+
+textarea {
+  background: rgba(0, 0, 0, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px;
+  font-size: 16px;
+  color: #b5e853;
+  border-radius: 2px;
+  word-wrap: normal;
+  overflow: auto;
+  overflow-y: hidden;
+  font-family: monospace;
+}
+
+//
+// Fixes
+//
+
+.buttons, button {
+  font-size: 14px;
+}
+
+@media (max-width: 720px) { 
+  header h1 {
+    margin-left: 0px;
+  }
+}
